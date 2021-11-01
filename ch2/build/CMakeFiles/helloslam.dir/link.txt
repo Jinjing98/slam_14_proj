@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/helloslam.dir/helloSLAM.o  -o helloslam  -Wl,-rpath,/home/jinjing/Projects/SLAM/slam_jinjing/ch2/build libmylib.so 

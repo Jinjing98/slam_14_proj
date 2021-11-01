@@ -1,0 +1,79 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00c\x00h\x008\x00_\x00d\x00i\x00r)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2,Launch Configuration 3,Launch Configuration 4
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_method
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=ch8_dir,direct_method
+Project Target=ch8_dir,direct_method
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=optical_flow
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=ch8_dir,optical_flow
+Project Target=ch8_dir,optical_flow
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build/
+isExecutable=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=useLK
+Type=Native Application
+
+[Launch][Launch Configuration 2][Data]
+Configured from ProjectItem=ch8_dir,useLK
+Project Target=ch8_dir,useLK
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build/
+isExecutable=false
+
+[Launch][Launch Configuration 3]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_sparse
+Type=Native Application
+
+[Launch][Launch Configuration 3][Data]
+Configured from ProjectItem=ch8_dir,direct_sparse
+Project Target=ch8_dir,direct_sparse
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build/
+isExecutable=false
+
+[Launch][Launch Configuration 4]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=direct_semidense
+Type=Native Application
+
+[Launch][Launch Configuration 4][Data]
+Configured from ProjectItem=ch8_dir,direct_semidense
+Project Target=ch8_dir,direct_semidense
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch8_dir/build/
+isExecutable=false

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jinjing/Projects/SLAM/slam_jinjing/ch4/build",
+  "command": "/usr/bin/c++   -I/usr/include/eigen3 -I/home/jinjing/Projects/SLAM/slam_jinjing/3rd_pkg/Sophus  -g   -o CMakeFiles/usesophus.dir/useSophus.o -c /home/jinjing/Projects/SLAM/slam_jinjing/ch4/useSophus.cpp",
+  "file": "/home/jinjing/Projects/SLAM/slam_jinjing/ch4/useSophus.cpp"
+}
+]

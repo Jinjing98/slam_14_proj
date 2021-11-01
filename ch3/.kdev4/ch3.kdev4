@@ -1,0 +1,43 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00h\x003)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/jinjing/Projects/SLAM/slam_jinjing/ch3/build
+Build Type=\n
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=useeigen
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=ch3,useeigen
+Project Target=ch3,useeigen
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch3/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=useeigenGeo
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=ch3,useeigenGeo
+Project Target=ch3,useeigenGeo
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch3/build/
+isExecutable=false

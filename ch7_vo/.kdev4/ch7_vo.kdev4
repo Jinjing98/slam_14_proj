@@ -1,0 +1,101 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00c\x00h\x007\x00_\x00v\x00o)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build
+Build Type=\n
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2,Launch Configuration 3,Launch Configuration 4,Launch Configuration 5,Launch Configuration 6
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=2d2d_ori
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=ch7_vo,2d2d_ori
+Project Target=ch7_vo,2d2d_ori
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=2d2d
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=ch7_vo,2d2d
+Project Target=ch7_vo,2d2d
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pose_estimation_3d2d
+Type=Native Application
+
+[Launch][Launch Configuration 2][Data]
+Configured from ProjectItem=ch7_vo,pose_estimation_3d2d
+Project Target=ch7_vo,pose_estimation_3d2d
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 3]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=3d3d
+Type=Native Application
+
+[Launch][Launch Configuration 3][Data]
+Project Target=ch7_vo,3d3d
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 4]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=3d3d
+Type=Native Application
+
+[Launch][Launch Configuration 4][Data]
+Configured from ProjectItem=ch7_vo,3d3d
+Project Target=ch7_vo,3d3d
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 5]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=3d2d
+Type=Native Application
+
+[Launch][Launch Configuration 5][Data]
+Configured from ProjectItem=ch7_vo,3d2d
+Project Target=ch7_vo,3d2d
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
+
+[Launch][Launch Configuration 6]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=feature_matching
+Type=Native Application
+
+[Launch][Launch Configuration 6][Data]
+Project Target=ch7_vo,feature_matching
+Working Directory=file:///home/jinjing/Projects/SLAM/slam_jinjing/ch7_vo/build/
+isExecutable=false
